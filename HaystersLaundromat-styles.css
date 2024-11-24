@@ -1,0 +1,75 @@
+body {
+  background-color: aliceblue;
+  font-family: 'Arvo';
+  font-size: 16px;
+}
+.navbar-logo {
+  padding: 0%;
+  margin: 0;
+}
+.text-right {
+  float: right;
+}
+.home {
+  background-image: url(./img/pg1-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+.services {
+  min-height: 600px;
+}
+.washing-machine-icon {
+  
+}
+.underline {
+    background-color: grey;
+    height: 3px;
+    width: 100%;
+    margin: 10px;
+}
+.icon {
+  margin-right: 10px;
+  width: 40px;
+  height 40px;
+}
+.what-we-offer {
+  min-height: 100vh;
+}
+.ironing-man {
+  background-image: url(./img/ironing\ man.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.pl-2 {
+  padding-left: 20px;
+}
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+.contact-info {
+  width: 100%;
+  height: 37.5vw;
+  padding-left: auto !important;
+  padding-right: auto !important;
+  flex-direction: column !important;
+}
+.offers {
+  
+  background: radial-gradient(white, rgb(200, 199, 199)) 
+}
+::placeholder {
+  color: black;
+  font-size: 10px;
+}
+.height-100 {
+  height: 80px !important;
+  width: 60px !important;
+  font-size: 36px;
+}
